@@ -67,7 +67,7 @@ class AuthenticationController {
         if(user != null){
             session.user = user
             session.isLogin = true
-            if(user.email.equals("admin@gmail1.com")){
+            if(user.email.equals("admin@gmail.com")){
                 session.isAdmin = true
                 render (view: '/index')
             } else{

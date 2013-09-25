@@ -95,24 +95,24 @@
         <td>
             <table>
                 <tr>
-                    <td>Enter Email</td>
+                    <td>Email ID*</td>
                     <td><g:textField name="email"/></td>
                 </tr>
                 <tr>
-                    <td>Enter Name</td>
-                    <td><g:textField name="firstName" /><g:textField name="lastName" /></td>
+                    <td>Your Name*</td>
+                    <td><g:textField name="firstName" placeholder="Enter First Name" spellcheck="true"/><g:textField name="lastName" placeholder="Enter Last name" /></td>
                 </tr>
                 <tr>
-                    <td>Enter Password </td>
+                    <td>Enter Password* </td>
                     <td> <g:passwordField name="password" /> </td>
                 </tr>
                 <tr>
-                    <td>Confirm Password </td>
+                    <td>Confirm Password* </td>
                     <td> <g:passwordField name="confirmPassword" /> </td>
                 </tr>
                 <tr>
                     <td>Gender </td>
-                    <td> <g:textField name="gender" /> </td>
+                    <td> Male <g:radio name="gender" value="Male"/>  Female <g:radio name="gender" value="Female"/></td>
                 </tr>
                 <tr>
                     <td>Date Of Birth</td>

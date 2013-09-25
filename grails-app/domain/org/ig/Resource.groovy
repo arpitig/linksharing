@@ -11,7 +11,7 @@ class Resource {
     static belongsTo = [topic : Topic, owner:User]
 
     static mapping = {
-       // tablePerHierarchy(false)
+        tablePerSubclass(true)
         summary type: 'text'
     }
 
